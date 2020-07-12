@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>灵山一会</title>
+  
+  <subtitle>灵山一会，俨然未散</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://myid503.github.io/"/>
+  <updated>2020-07-10T11:38:44.168Z</updated>
+  <id>https://myid503.github.io/</id>
+  
+  <author>
+    <name>D503</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开篇</title>
+    <link href="https://myid503.github.io/2020/07/10/%E5%BC%80%E7%AF%87/"/>
+    <id>https://myid503.github.io/2020/07/10/%E5%BC%80%E7%AF%87/</id>
+    <published>2020-07-10T11:37:09.000Z</published>
+    <updated>2020-07-10T11:38:44.168Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="资料整理项目"><a href="#资料整理项目" class="headerlink" title="资料整理项目"></a>资料整理项目</h2><ol><li><a href="https://github.com/myid503/khenposodargye" target="_blank" rel="noopener">索达吉堪布法宝资料汇集</a></li><li><a href="https://github.com/myid503/fudao" target="_blank" rel="noopener">法师辅导资料汇集</a></li></ol><h2 id="近期更新课程"><a href="#近期更新课程" class="headerlink" title="近期更新课程"></a>近期更新课程</h2><ul><li><input disabled="" type="checkbox"> 《赞僧功德经》讲记 </li><li><input disabled="" type="checkbox"> 《佛说父母恩难报经》讲记 </li><li><input checked="" disabled="" type="checkbox"> 《苦乐道用》苦乐转为道用的窍诀（全十讲）</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;资料整理项目&quot;&gt;&lt;a href=&quot;#资料整理项目&quot; class=&quot;headerlink&quot; title=&quot;资料整理项目&quot;&gt;&lt;/a&gt;资料整理项目&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/myid503/khenposodarg
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
