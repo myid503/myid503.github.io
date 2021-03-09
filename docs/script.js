@@ -21,10 +21,15 @@ new Docute({
           title: 'Introduction',
           link: '/introduction'
         },
+         {
+          title: 'netdisk',
+          link: '/netdisk'
+        },
         {
           title: 'Installation',
           link: '/installation'
         }
+        
       ]
     }
   ]
