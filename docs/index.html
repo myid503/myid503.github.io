@@ -12,7 +12,13 @@
     <script>
       new Docute({
         target: '#docute',
-		editLinkBase:'',
+		editLinkBase: 'https://github.com/myid503/myid503.github.io/tree/master/docs',
+		editLinkText: 'Edit this page on GitHub',
+		router: {
+		mode: 'history'
+		},
+		detectSystemDarkTheme: true,
+		darkThemeToggler: true,
 		nav: [
     {
       title: 'Home',
@@ -22,14 +28,76 @@
       title: '503.im',
       link: 'https://www.503.im'
     }
+	],
+	sidebar: [
+    {
+      title: 'Guide',
+      children: [
+        {
+          title: 'Introduction',
+          link: '/'
+        },
+        {
+          title: 'Customization',
+          link: '/guide/customization'
+        },
+        {
+          title: 'Markdown Features',
+          link: '/guide/markdown-features'
+        },
+        {
+          title: 'Use Vue in Markdown',
+          link: '/guide/use-vue-in-markdown'
+        },
+        {
+          title: 'Internationalization',
+          link: '/guide/internationalization'
+        },
+        {
+          title: 'Plugin',
+          link: '/guide/plugin'
+        },
+        {
+          title: 'Deployment',
+          link: '/guide/deployment'
+        }
+      ]
+    },
+    {
+      title: 'Advanced',
+      children: [
+        {
+          title: 'Use With Bundlers',
+          link: '/guide/use-with-bundlers'
+        },
+        {
+          title: 'Offline Support',
+          link: '/guide/offline-support'
+        }
+      ]
+    },
+    {
+      title: 'References',
+      children: [
+        {
+          title: 'Options',
+          link: '/options'
+        },
+        {
+          title: 'Built-in Components',
+          link: '/builtin-components'
+        },
+        {
+          title: 'Plugin API',
+          link: '/plugin-api'
+        }
+      ]
+    },
+    {
+      title: 'Credits',
+      link: '/credits'
+    }
   ],
-	MultiItem: [
-		{
-		  title: 'Index',
-		  toc: true,		 
-		  collapsable: true
-		}
-		]
       })
     </script>
   </body>
