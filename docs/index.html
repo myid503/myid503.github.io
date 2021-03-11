@@ -22,6 +22,20 @@
       link: 'https://www.503.im'
     }
   ],
+  interface MultiItem {
+  title: 'Index'
+  children: Array<SingleItem>
+  /**
+   * Whether to show TOC
+   * Default to `true`
+   */
+  toc?: true
+  /**
+   * Whether to make children collapsable
+   * Default to `true` 
+   */
+  collapsable?: true
+}
       })
     </script>
   </body>
