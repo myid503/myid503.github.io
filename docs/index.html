@@ -12,6 +12,7 @@
     <script>
       new Docute({
         target: '#docute',
+		editLinkBase:'',
 		nav: [
     {
       title: 'Home',
@@ -22,20 +23,17 @@
       link: 'https://www.503.im'
     }
   ],
-  interface MultiItem {
-  title: 'Index'
-  children: Array<SingleItem>
-  /**
-   * Whether to show TOC
-   * Default to `true`
-   */
-  toc?: true
-  /**
-   * Whether to make children collapsable
-   * Default to `true` 
-   */
-  collapsable?: true
-}
+		MultiItem: [
+		{
+		  title: 'Index'
+		  toc?: true
+		  /**
+		   * Whether to make children collapsable
+		   * Default to `true` 
+		   */
+		  collapsable?: true
+		}
+		]
       })
     </script>
   </body>
